@@ -25,4 +25,4 @@ You can point your browser to your server IP address. You should see this page:
 If you see this page, you have successfully installed Nginx on your web server.
 
 ## Creating our own website
-Default page is placed in /var/www/html/ location. You can place your static pages here, or use virtual host and place it other location.
+Default page is placed in **/var/www/html/** location. You can place your static pages here, or use virtual host and place it other location.
