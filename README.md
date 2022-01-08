@@ -6,3 +6,6 @@ In this tutorial we’ll install Nginx and set up a basic site.
 ## What you’ll learn
   + How to set up Nginx
   + Some basic Nginx configuration
+## What you’ll need
+  + A computer running Ubuntu Server 18.04 LTS
+  + Some basic knowledge of command line use
