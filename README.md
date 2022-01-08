@@ -16,4 +16,6 @@ To install Nginx, use following command:
 sudo apt update
 sudo apt install nginx
 ```
+After installing it, you already have everything you need.
 
+You can point your browser to your server IP address. You should see this page:
