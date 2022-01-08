@@ -4,5 +4,5 @@ Nginx (pronounced as “Engine-X”) is an open source web server that is often 
 
 In this tutorial we’ll install Nginx and set up a basic site.
 ## What you’ll learn
->How to set up Nginx
->Some basic Nginx configuration
+> How to set up Nginx
+> Some basic Nginx configuration
