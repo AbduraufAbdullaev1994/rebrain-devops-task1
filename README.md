@@ -9,3 +9,11 @@ In this tutorial we’ll install Nginx and set up a basic site.
 ## What you’ll need
   + A computer running Ubuntu Server 18.04 LTS
   + Some basic knowledge of command line use
+## Installing Nginx
+To install Nginx, use following command:
+
+```
+sudo apt update
+sudo apt install nginx
+```
+
