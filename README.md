@@ -21,4 +21,8 @@ After installing it, you already have everything you need.
 You can point your browser to your server IP address. You should see this page:
 
 ![image](https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/optimized/2X/7/7504d83a9fe8c09d861b2f7c49e144ac773f0c0d_2_690x288.png)
+
 If you see this page, you have successfully installed Nginx on your web server.
+
+## Creating our own website
+Default page is placed in /var/www/html/ location. You can place your static pages here, or use virtual host and place it other location.
