@@ -49,3 +49,30 @@ Paste the following to the **index.html** file:
 </html>
 ```
 Save this file. In next step we are going to set up virtual host to make Nginx use pages from this location.
+## Setting up virtual host
+To set up virtual host, we need to create file in **/etc/nginx/sites-enabled/** directory.
+
+For this tutorial, we will make our site available on 81 port, not the standard 80 port. You can change it if you would like to.
+```
+cd /etc/nginx/sites-enabled
+sudo "${EDITOR:-vi}" tutorial
+```
+```
+server {
+       listen 81;
+       listen [::]:81;
+
+       server_name example.ubuntu.com;
+
+       root /var/www/tutorial;
+       index index.html;
+
+       location / {
+               try_files $uri $uri/ =404;
+       }
+}
+```
+
+
+
+
