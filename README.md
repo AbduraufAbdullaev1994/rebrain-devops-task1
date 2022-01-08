@@ -30,6 +30,3 @@ Default page is placed in **/var/www/html/** location. You can place your static
 | Virtual host is a method of hosting multiple domain names on the same server. |
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
