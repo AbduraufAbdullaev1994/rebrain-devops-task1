@@ -28,5 +28,5 @@ If you see this page, you have successfully installed Nginx on your web server.
 Default page is placed in **/var/www/html/** location. You can place your static pages here, or use virtual host and place it other location.
 
 | Virtual host is a method of hosting multiple domain names on the same server. |
-| Tables        | Are           | Cool  |
+| Tables                                |
 | ------------- |:-------------:| -----:|
