@@ -85,6 +85,8 @@ Let’s check if everything works as it should. Open our newly created site in w
 
 Congratulations! Everything works as it should. We have just configured Nginx web server.
 
+This information was given from [Ubuntu site](https://ubuntu.com/tutorials/install-and-configure-nginx#1-overview)
+
 
 
 
