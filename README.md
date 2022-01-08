@@ -72,6 +72,19 @@ server {
        }
 }
 ```
+**root** is a directory where we have placed our .html file. **index** is used to specify file available when visiting root directory of site. **server_name** can be anything you want, because you aren’t pointing it to any real domain by now.
+## Activating virtual host and testing results
+To make our site working, simply restart Nginx service.
+
+```
+sudo service nginx restart
+```
+Let’s check if everything works as it should. Open our newly created site in web browser. Remember that we used :81 port.
+
+![image](https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/optimized/2X/c/c541cea4fdab6269a04523060021728a0965e93e_2_690x288.png)
+
+Congratulations! Everything works as it should. We have just configured Nginx web server.
+
 
 
 
